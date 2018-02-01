@@ -3,12 +3,19 @@ title: LELE Blog
 SEOTitle: LELE Blog
 header-img: img/home-bg.jpg
 email: huxpro@gmail.com
+description: "上有黄鹂。"
+keyword: "了了,LELE,胡说八道 "
+url: "https://xiyue-yi.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
+weibo_username:     p/1005056227243862
+#zhihu_username:     huxpro
+#github_username:    huxpro
+#twitter_username:   huxpro
 #facebook_username:  huxpro
 # linkedin_username:  firstname-lastname-idxxxx
 
@@ -60,6 +67,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "像生活的懦夫。"
 sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -79,26 +87,37 @@ service-worker: true
 # Friends
 friends: [
     {
+    #     title: "A",
     #     href: "http://su.gallery/"
     # },{
+        title: "B",
         href: "http://mida.re/"
     },{
+        title: "C",
         href: "http://qianduan.guru/"
     },{
+        title: "D",
         href: "http://lingyu.wang/"
     },{
+        title: "E",
         href: "http://hmqk1995.github.io"
     },{
+        title: "F",
         href: "http://ebnbin.com/"
     },{
+        title: "G",
         href: "http://blog.smdcn.net"
     },{
+        title: "H",
         href: "http://xieminis.me/"
     },{
+        title: "I",
         href: "http://dhong.co"
     },{
+        title: "J",
         href: "http://ingf.github.io/"
     },{
+        title: "K",
         href: "http://wepiaofei.github.io/blog/"
     }
 ]
