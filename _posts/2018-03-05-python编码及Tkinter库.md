@@ -12,9 +12,11 @@ tags: Python Tkinter
   
     SyntaxError: Non-ASCII character '\xe5' in file ABC.py on line 24, but no encoding declared; see http://python.org/dev/peps/pep-         0263/   for details
   
-### 出错原因：Python默认是以ASCII作为编码方式的，如果在自己的Python源码中包含了中文（或者其他非英语系的语言），则会出现编码错误。
+#### 出错原因：
+Python默认是以ASCII作为编码方式的，如果在自己的Python源码中包含了中文（或者其他非英语系的语言），则会出现编码错误。
 
-### 解决办法：在文件开头加入下面代码
+#### 解决办法：
+在文件开头加入下面代码
   
     # -*- coding: UTF-8 -*- 
   
@@ -32,7 +34,8 @@ Tk会调用操作系统提供的本地GUI接口，完成最终的GUI
 Tkinter 是 Python 的标准 GUI 库。Python 使用 Tkinter 可以快速的创建 GUI 应用程序。
 由于 Tkinter 是内置到 python 的安装包中、只要安装好 Python 之后就能 import Tkinter 库、而且 IDLE 也是用 Tkinter 编写而成、对于简单的图形界面 Tkinter 还是能应付自如。
 
-### 注意：Python3.x 版本使用的库名为 tkinter,即首写字母 T 为小写。
+#### 注意：
+Python3.x 版本使用的库名为 tkinter,即首写字母 T 为小写。
 
     import tkinter
   
