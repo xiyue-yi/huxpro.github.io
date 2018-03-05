@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      python编码及Tkinter库
+title:      Python中文编码及Tkinter库
 date:       2018-03-05
 author:     LELE
 header-img: img/post-bg-miui6.jpg
