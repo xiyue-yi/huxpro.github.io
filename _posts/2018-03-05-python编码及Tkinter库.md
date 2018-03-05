@@ -16,7 +16,7 @@ tags: Python Tkinter
 
 ###解决办法：在文件开头加入下面代码
   
-    \# -*- coding: UTF-8 -*- 
+    # -*- coding: UTF-8 -*- 
   
 默认的python文件是采用ascii编码的，在头部加入# -*- coding: utf-8 -*-   则指定文件的编码格式是utf-8，那么就是说文件内你可以用中文或其他的文字了。
 
