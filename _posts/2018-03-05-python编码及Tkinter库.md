@@ -1,12 +1,22 @@
+---
+layout:     post
+title:      python编码及Tkinter库
+date:       2018-03-05
+author:     LELE
+header-img: img/post-bg-miui6.jpg
+catalog: true
+tags: Python Tkinter 
+---
+
 Python编码问题
   
-  SyntaxError: Non-ASCII character '\xe5' in file ABC.py on line 24, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+  SyntaxError: Non-ASCII character '\xe5' in file ABC.py on line 24, but no encoding declared; see http://python.org/dev/peps/pep-0263/   for details
   
 出错原因：Python默认是以ASCII作为编码方式的，如果在自己的Python源码中包含了中文（或者其他非英语系的语言），则会出现编码错误。
 
 解决办法：在文件开头加入下面代码
   
-  # -*- coding: UTF-8 -*- 
+  \# -*- coding: UTF-8 -*- 
   
 默认的python文件是采用ascii编码的，在头部加入# -*- coding: utf-8 -*-   则指定文件的编码格式是utf-8，那么就是说文件内你可以用中文或其他的文字了。
 
