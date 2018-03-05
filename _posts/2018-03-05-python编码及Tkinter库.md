@@ -38,5 +38,5 @@ Tkinter 是 Python 的标准 GUI 库。Python 使用 Tkinter 可以快速的创�
 Python3.x 版本使用的库名为 tkinter,即首写字母 T 为小写。
 
     import tkinter
-  
+
 即在Python2.x版本中，使用Tkinter；在Python3.x版本中，使用tkinter.
