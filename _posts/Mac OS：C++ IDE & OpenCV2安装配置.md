@@ -1,11 +1,11 @@
 ---
 layout:     post
-title:      （壹玖）零贰贰零
-date:       2019-02-20
+title:      Mac OS：C++ IDE & OpenCV2安装配置
+date:       2019-05-13
 author:     LELE
 header-img: img/post-bg-miui6.jpg
 catalog: true
-tags: igraph cairo pycairo 可视化 社区发现 python
+tags: opencv2 clion macos c++
 ---
 
 ### Mac OS：C++ IDE & OpenCV2安装配置
@@ -147,11 +147,8 @@ int main() {
 ```
 
 #### 参考资料
-igraph主页安装建议
-https://igraph.org/python/doc/tutorial/install.html#installing-igraph
-
-Could not find module FindOpenCV.cmake
+stackoverflow上关于无法找到opencv相关文件的问答
 https://stackoverflow.com/questions/8711109/could-not-find-module-findopencv-cmake-error-in-configuration-process
 
-CLion配置OpenCV环境
+Mac CLion配置OpenCV环境
 https://www.jianshu.com/p/b705d9eee23d
