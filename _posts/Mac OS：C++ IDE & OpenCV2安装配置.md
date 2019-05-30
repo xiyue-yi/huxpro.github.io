@@ -5,7 +5,7 @@ date:       2019-05-13
 author:     LELE
 header-img: img/post-bg-miui6.jpg
 catalog: true
-tags: opencv2 clion macos c++
+tags: macos
 ---
 
 ### Mac OS：C++ IDE & OpenCV2安装配置
